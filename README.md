@@ -44,5 +44,5 @@ If you'd like to run the project locally, follow these steps:
 The website is deployed using [Vercel](https://vercel.com/). Any changes pushed to the main branch are automatically deployed, keeping the live version always up to date.
 
 ## Contact
-If you'd like to get in touch, you can contact me through the website's contact form or via [LinkedIn]([https://linkedin.com/in/kaylali](https://www.linkedin.com/in/kaylali-ce-waterloo/)).
+If you'd like to get in touch, you can contact me through the website's contact form or via [LinkedIn](https://www.linkedin.com/in/kaylali-ce-waterloo/).
 
