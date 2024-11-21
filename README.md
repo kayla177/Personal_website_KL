@@ -43,12 +43,6 @@ If you'd like to run the project locally, follow these steps:
 ## Deployment
 The website is deployed using [Vercel](https://vercel.com/). Any changes pushed to the main branch are automatically deployed, keeping the live version always up to date.
 
-## Contributing
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions, bug reports, and feature suggestions are always welcome!
-
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## Contact
-If you'd like to get in touch, you can contact me through the website's contact form or via [LinkedIn](https://linkedin.com/in/kaylali).
+If you'd like to get in touch, you can contact me through the website's contact form or via [LinkedIn]([https://linkedin.com/in/kaylali](https://www.linkedin.com/in/kaylali-ce-waterloo/)).
 
