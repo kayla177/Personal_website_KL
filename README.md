@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+# Personal Website Generator - Kayla Li
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my personal website generator! This project aims to create a platform that helps users easily set up and customize their personal websites. Currently, we have completed the dashboard page, which serves as the main interface for managing and customizing the site. The live version can be viewed here: https://personal-website-kl.vercel.app/.
 
-Currently, two official plugins are available:
+## Overview
+This project serves as a foundation for building personal portfolio websites, allowing users to manage their content through an intuitive dashboard. Built using modern web technologies such as HTML, CSS, JavaScript, and React, it provides a simple yet interactive experience for creating a personal online presence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Dashboard Page**: The main interface where users can manage their website setup, including updating the site type, connecting a custom domain, and setting up payment methods.
+- **Responsive Design**: The dashboard is fully responsive, providing a consistent experience on both desktop and mobile devices.
 
-## Expanding the ESLint configuration
+## Tech Stack
+- **React**: A JavaScript library for building user interfaces.
+- **HTML/CSS**: For structuring and styling the content.
+- **JavaScript**: To add interactivity to the dashboard.
+- **Vercel**: Used for deployment, ensuring fast and reliable hosting.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation & Setup
+If you'd like to run the project locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/kayla177/Personal_website_KL.git
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+2. **Navigate into the directory**:
+   ```bash
+   cd Personal_website_KL
+   ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. **Install dependencies** (make sure you have [Node.js](https://nodejs.org/) installed):
+   ```bash
+   npm install
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
+4. **Run the development server**:
+   ```bash
+   npm start
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-});
-```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the dashboard locally.
+
+## Deployment
+The website is deployed using [Vercel](https://vercel.com/). Any changes pushed to the main branch are automatically deployed, keeping the live version always up to date.
+
+## Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions, bug reports, and feature suggestions are always welcome!
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
+
+## Contact
+If you'd like to get in touch, you can contact me through the website's contact form or via [LinkedIn](https://linkedin.com/in/kaylali).
+
