@@ -1,4 +1,4 @@
-# Personal Website Generator - Kayla Li
+# Personal Website Generator
 
 Welcome to the repository for my personal website generator! This project aims to create a platform that helps users easily set up and customize their personal websites. Currently, we have completed the dashboard page, which serves as the main interface for managing and customizing the site. The live version can be viewed here: https://personal-website-kl.vercel.app/.
 
