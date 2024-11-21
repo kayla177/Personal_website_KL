@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Home, DollarSign, Calendar, ShoppingCart, Package, Book, Users, Layout, Mail, PenTool, Plus, Search, ChevronRight, ChevronLeft } from 'lucide-react';
 import './Dashboard.css';
 
